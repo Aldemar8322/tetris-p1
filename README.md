@@ -1,1 +1,1 @@
-# tetris-p1
+# TETRIS
