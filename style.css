@@ -1,0 +1,61 @@
+body{
+    margin: 5;
+}
+
+.contenedor{
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    display: flexbox;
+}
+
+@media screen and (max-width:930px){
+    .contenedor{
+        width: auto;
+        height: auto;
+}
+}
+
+@media screen and (min-width:931px) and (max-width:1024px){
+    .contenedor{
+        width: auto;
+        height: auto;
+}
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    height: 150px;
+}
+main {
+    width: auto;
+    height: auto;
+}
+.linea1{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    height: 500px;
+    align-items: center;
+}
+.imagen{
+    height: 700px;
+    background-image: url(peludos.jpg) ;
+    background-repeat: no-repeat;
+}
+.lista{
+    height: 400px;
+    background-color: greenyellow;
+    border-radius: 30% 10% 30% 0%;
+    align-content: center;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    gap: 1em;
+}
+header{
+    padding-left: 50PX;
+}

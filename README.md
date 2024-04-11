@@ -1,2 +1,2 @@
 # TETRIS
-lorena
+colaborador lorena
