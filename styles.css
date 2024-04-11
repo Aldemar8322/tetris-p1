@@ -1,0 +1,33 @@
+
+/*
+    <!-- Menu -->
+*/
+#navbarSupportedContent ul li a:hover{
+    color: green;
+}
+#menu li > a {
+    font-size: xxxx;
+    font-weight: bold;
+}
+#menu form > button {
+    font-size: xxxx;
+    font-weight: bold;
+}
+/*
+    <!-- Banner/Slider -->
+    NOTA: No olvidar que la imagen se desajusta en el respoonsive
+*/
+.carousel-inner{
+    max-height: 30rem !important;
+}
+/*
+    <!-- Section 1: presentación -->
+*/
+/*
+    <!-- Media queries presentación -->
+*/
+@media (max-width:768px){
+    #presentacion {
+        width: 80% !important;
+    }
+}
