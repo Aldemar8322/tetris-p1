@@ -1,1 +1,2 @@
 # TETRIS
+Colaborador Lorena P
