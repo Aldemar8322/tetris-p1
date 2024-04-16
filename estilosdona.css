@@ -1,7 +1,8 @@
 .pagina {
     position: relative;
+    margin-top: 10px;
     min-height: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .imagenfondo1 {
     background-image: url(imagenes/imagenfondo.jpg);
@@ -15,11 +16,11 @@
     }
 .titulo {
     font-family:cursive;
-        font-weight: bolder;
-        font-size:xx-large;
-        text-align: center;
-        color: white;
-        padding-top: 10px;
+    font-weight: bolder;
+    font-size:xx-large;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
     }
 .titulocaja {
     font-family: cursive;
@@ -94,13 +95,13 @@
 }
 .footer{
     display: flex;
-    height:110px;
-    width:100%;
+    height: auto;
+    width: 100%;
     color: white;
     background-color: #008f39;
     position: static;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-size: large;
+    font-size: larger;
   }
