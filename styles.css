@@ -6,28 +6,111 @@
     color: green;
 }
 #menu li > a {
-    font-size: xxxx;
     font-weight: bold;
 }
 #menu form > button {
-    font-size: xxxx;
     font-weight: bold;
 }
+
 /*
-    <!-- Banner/Slider -->
-    NOTA: No olvidar que la imagen se desajusta en el respoonsive
+    <!-- Section 4: Encuentranos -->
 */
-.carousel-inner{
-    max-height: 30rem !important;
+
+
+.local{
+    background: rgb(114, 52, 1);
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.local>div>img {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+/*
+    <!-- Footer -->
+*/
+footer{
+    min-height: 100px;
+}
+footer p{
+     text-align: center;
+}
+.iconos-social i{
+    font-size: 25px;
+    padding: 0 5px;
 }
 /*
-    <!-- Section 1: presentación -->
+    <!-- Media queries PANTALLAS EXTRA   SM -->
 */
+@media (max-width:667px){
+    .icono-show {
+         flex-wrap: wrap;
+         justify-content: center !important;
+         
+    }
+    .local>div>img {
+        width: 350px;
+        padding-top: 25px;
+        padding-left: 25px;
+    }
+}
+
 /*
-    <!-- Media queries presentación -->
+    <!-- Media queries PANTALLAS SM -->
 */
 @media (max-width:768px){
-    #presentacion {
+    .presentacion {
         width: 80% !important;
+    }
+    .que-ofrecemos {
+        width: 100% !important;
+        text-align: center;
+    }
+    .resultados {
+        width: 80% !important;
+    }
+    footer {
+        font-size: small !important;
+    }
+}
+/*
+    <!-- Media queries PANTALLAS MEDIANAS -->
+*/
+@media (min-width: 768px) and (max-width: 992px){
+    .local{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        vertical-align: middle;
+        align-items: center;
+    }
+    .wrapper{
+        width: 50%;
+        margin: auto;
+        padding-top: 20px;
+    }
+}
+/*
+    <!-- Media queries PANTALLAS ANCHAS -->
+*/
+
+@media (max-width:1200px){
+    .local{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
     }
 }
