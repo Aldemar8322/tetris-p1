@@ -1,2 +1,6 @@
-# TETRIS
-Aldemar Torres
+# TETRIS 
+Colaboradores:
+- Lorena P
+- EliasM
+- AldemarT
+- Juan Meneses
