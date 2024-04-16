@@ -1,0 +1,120 @@
+body{
+    margin: 5;
+    display: flex;
+}
+
+.contenedor{
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:930px){
+    .contenedor{
+        width: auto;
+        height: auto;
+        background-color:bisque;
+}
+}
+
+@media screen and (min-width:931px) and (max-width:1024px){
+    .contenedor{
+        width: auto;
+        height: auto;
+}
+}
+main {
+    width: auto;
+    height: auto;
+}
+.imagen{
+    height: 700px;
+    width: auto;
+    background-image: url(img-lore/peludos.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-weight:bolder;
+    justify-content: center;
+}
+.linea1{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    height: 600px;
+    align-items: center;
+    gap: 10px;
+}
+.video{
+    display: flex;
+}
+.texto{
+       justify-content: center;
+}
+h2,
+h3
+{
+    font-size:medium;
+    font-weight: bolder;
+    color: brown;
+}
+p{
+    font-size: small;
+}
+.lista{
+    height: 400px;
+    background-color: #008f39;
+    border-radius: 30% 10% 30% 0%;
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.linea2{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+.galeria{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    background-color: #008f39;
+    margin-bottom: 5px;
+    font-size:medium;
+    font-weight: bolder;
+    color: white;
+}
+.galeria > div{
+margin-top: 10px;    
+flex: 1;
+border-radius: 1rem;
+background-position: center;
+background-repeat: no-repeat;
+background-size: auto 100%;
+transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.galeria > div:hover{
+    flex: 5;
+}
+.footer{
+    display: flex;
+    height:110px;
+    width:100%;
+    color: white;
+    background-color: #008f39;
+    position: static;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: large;
+  }
