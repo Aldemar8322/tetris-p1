@@ -1,0 +1,106 @@
+.pagina {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+.imagenfondo1 {
+    background-image: url(imagenes/imagenfondo.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:cover;
+    align-items:top;
+    height: 450px;
+    justify-content: center;
+    width: 100%;
+    }
+.titulo {
+    font-family:cursive;
+        font-weight: bolder;
+        font-size:xx-large;
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+    }
+.titulocaja {
+    font-family: cursive;
+    font-weight: bolder ;
+    color: white;
+    background-color: #7f5539;
+}
+.titulocajap {
+    font-family: cursive;
+    font-weight: bolder ;
+    color: white;
+    background-color: #008f39;
+    text-align: center;
+}
+
+.caja1 {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+.cuadro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.linea {
+    display: flex;
+    justify-content: center;
+    align-content:baseline;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.interior {
+    display: flex;
+    flex-direction: column;
+    background-color: #7f5539;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 200px ;
+    width: 300px;
+}
+.interior2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #008f39;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.grilla2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 1px;
+
+}
+.parrafo {
+    text-align: justify;
+    background-color: #7f5539;
+    color: white;
+    width: 100%;
+    align-items: center;
+    object-fit: cover;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    height:110px;
+    width:100%;
+    color: white;
+    background-color: #008f39;
+    position: static;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: large;
+  }
