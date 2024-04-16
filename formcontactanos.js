@@ -34,7 +34,6 @@ $mensaje.addEventListener("input", (evento) => {
 });
 
 $botonEnviar.addEventListener("click", (evento) => {
-  evento.preventDefault();
   console.log(nombre);
   console.log(telefono);
   console.log(email);

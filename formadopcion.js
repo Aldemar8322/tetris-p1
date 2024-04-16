@@ -10,9 +10,9 @@ const $ciudad = document.getElementById("ciudad");
 const $tipoVivienda = document.getElementById("tipoVivienda");
 const $vivienda = document.getElementById("vivienda");
 const $dueño = document.getElementById("dueño");
-const $ocupacion = document.getElementById("nombre");
-const $ingresos = document.getElementById("nombre");
-const $empresa = document.getElementById("nombre");
+const $ocupacion = document.getElementById("ocupacion");
+const $ingresos = document.getElementById("ingresos");
+const $empresa = document.getElementById("empresa");
 const $terminos = document.getElementById("terminos");
 const $enviar = document.getElementById("enviar");
 
@@ -88,7 +88,6 @@ $terminos.addEventListener("input", (evento) => {
 });
 
 $enviar.addEventListener("click", (evento) => {
-  evento.preventDefault();
   console.log(nombre);
   console.log(identificacion);
   console.log(correo);
